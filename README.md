@@ -14,21 +14,27 @@ This application preserves line and word order for high-quality text recognition
 - 💬 Converts handwriting to clean digital text
 - 🖥️ Simple UI using Streamlit
 
----
-
-## 🛠️ Tech Stack
-
-- Python 3.10+
-- Streamlit
-- Hugging Face Transformers
-- OpenCV
-- Pillow (PIL)
 
 ---
 
-## 📥 Installation
+## 🛠️ Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/handwriting-paragraph-ocr.git
-   cd handwriting-paragraph-ocr
+To set up and run the app locally, follow these steps:
+
+```bash
+ 1. Clone the repository
+git clone https://github.com/<your-username>/handwriting-paragraph-ocr.git
+cd handwriting-paragraph-ocr
+
+ 2. (Optional but recommended) Create and activate a virtual environment
+python -m venv ocrenv
+# On Windows
+ocrenv\Scripts\activate
+# On macOS/Linux
+source ocrenv/bin/activate
+
+ 3. Install the required dependencies
+pip install -r requirements.txt
+
+ 4. Run the Streamlit app
+streamlit run app.py
