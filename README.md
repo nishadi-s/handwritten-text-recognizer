@@ -23,7 +23,7 @@ To set up and run the app locally, follow these steps:
 
 ```bash
  1. Clone the repository
-git clone https://github.com/<your-username>/handwriting-paragraph-ocr.git
+git clone https://github.com/nishadi-s/handwriting-paragraph-ocr.git
 cd handwriting-paragraph-ocr
 
  2. (Optional but recommended) Create and activate a virtual environment
